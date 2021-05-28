@@ -1,0 +1,61 @@
+<script src="assets/vendors/js/vendor.bundle.base.js"></script>
+<script src="assets/vendors/js/vendor.bundle.addons.js"></script>
+<!-- endinject -->
+<!-- Plugin js for this page-->
+<!-- End plugin js for this page-->
+<!-- inject:js -->
+<script src="assets/js/shared/off-canvas.js"></script>
+<script src="assets/js/shared/misc.js"></script>
+<!-- endinject -->
+<!-- Custom js for this page-->
+<script src="assets/js/demo_1/dashboard.js"></script>
+<script>
+	const toggleNodePort = (nodeId, port) => {
+		state = document.getElementById(`${port}_state`).innerText;
+		var xhttp = new XMLHttpRequest();
+		xhttp.open("GET", `/toggleNodePort?nodeId=${nodeId}&port=${port}&state=${state}`, true);
+		xhttp.onreadystatechange = function () {
+			if (this.readyState == 4 && this.status == 200) {
+				var response = JSON.parse(this.responseText);
+				var stateHolder = document.getElementById(`${port}_state`);
+				stateHolder.innerText = response.state;
+				console.log(response);
+			}
+		};
+		xhttp.send();
+	};
+</script>
+
+<script>
+	const sendPWMSignal = (nodeId, port) => {
+		var value = document.getElementById(`${port}_value`).value;
+		var xhttp = new XMLHttpRequest();
+		xhttp.open("GET", `/PWMSignal?nodeId=${nodeId}&port=${port}&value=${value}`, true);
+		xhttp.onreadystatechange = function () {
+			if (this.readyState == 4 && this.status == 200) {
+				var response = JSON.parse(this.responseText);
+				var stateHolder = document.getElementById(`${port}_state`);
+				stateHolder.innerText = response.value;
+				console.log(response);
+			}
+		};
+		xhttp.send();
+	};
+</script>
+
+<script>
+	const refreshNodeData = (nodeId, portNames) => {
+		var xhttp = new XMLHttpRequest();
+		portNames = portNames.split(",");
+		xhttp.open("GET", `/refreshNodeData?nodeId=${nodeId}`, true);
+		xhttp.onreadystatechange = function () {
+			if (this.readyState == 4 && this.status == 200) {
+				var response = JSON.parse(this.responseText);
+				for (let index = 0; index < portNames.length; index++) {
+					document.getElementById(`${portNames[index]}_state`).innerText = response[0].ports[portNames[index]].value;
+				}
+			}
+		};
+		xhttp.send();
+	};
+</script>

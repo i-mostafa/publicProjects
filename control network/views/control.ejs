@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    </head>
+    <body>
+        <div class="container text-center w-50 my-5">
+            <table class="table table-dark">
+                <thead>
+                    <tr>
+                        <th scope="col">Ip</th>
+                        <th scope="col">Enable</th>
+                        <th scope="col">Disable</th>
+                        <th scope="col">Connect</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% for(let ip of ipsData) {%>
+
+                    <tr>
+                        <th scope="row"><%= ip %></th>
+                        <td>
+                            <a
+                                type="button"
+                                class="btn btn-primary btn-lg"
+                                href="http://<%= ip %>:5050/allow"
+                                >Enable</a
+                            >
+                        </td>
+                        <td>
+                            <a
+                                type="button"
+                                class="btn btn-primary btn-lg"
+                                href="http://<%= ip %>5050/block"
+                                >Disable</a
+                            >
+                        </td>
+                        <td>
+                            <a
+                                type="button"
+                                class="btn btn-primary btn-lg"
+                                href="http://<%= ip %>:5050"
+                                >Connect</a
+                            >
+                        </td>
+                    </tr>
+                    <% } %>
+                </tbody>
+            </table>
+        </div>
+        <script src="/js/jquery.min.js"></script>
+        <script src="/js/popper.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
+    </body>
+</html>

@@ -1,0 +1,26 @@
+<div class="row page-title-header">
+	<div class="col-12">
+		<div class="page-header">
+			<div class="filter-wrapper">
+				<a href="#" class="advanced-link toolbar-item">Change Node</a>
+				<div class="dropdown toolbar-item">
+					<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownsorting" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<%= node.nodeId%> ____ <%= node.nodeName %>
+					</button>
+					<div class="dropdown-menu" aria-labelledby="dropdownsorting">
+						<% if(role === 'User') {%> <% for(let node of nodes){ %>
+						<a class="dropdown-item" href="/readStatus?nodeId=<%= node.nodeId%>"><%= node.nodeId%> ____ <%= node.nodeName %> </a>
+						<% } %> <% } else{%> <% for(let node of nodes){ %>
+						<a class="dropdown-item" href="/controlRoom?nodeId=<%= node.nodeId%>"><%= node.nodeId%> ____ <%= node.nodeName %> </a>
+						<% } %> <% } %>
+					</div>
+				</div>
+			</div>
+			<div class="sort-wrapper"></div>
+			<h4 class="page-title">Current Node ID : <%= node.nodeId%></h4>
+		</div>
+	</div>
+	<div class="col-md-12">
+		<div class="page-header-toolbar"></div>
+	</div>
+</div>

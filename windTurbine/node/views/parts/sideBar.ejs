@@ -1,0 +1,77 @@
+<nav class="sidebar sidebar-offcanvas" id="sidebar">
+  <ul class="nav">
+    <li class="nav-item nav-profile">
+      <a href="#" class="nav-link">
+        <div class="profile-image">
+          <img
+            class="img-xs rounded-circle"
+            src="assets/images/faces/face8.jpg"
+            alt="profile image"
+          />
+          <div class="dot-indicator bg-success"></div>
+        </div>
+        <div class="text-wrapper">
+          <p class="profile-name"><%= userName %></p>
+          <p class="designation"><%= userName %></p>
+        </div>
+      </a>
+    </li>
+    <li class="nav-item nav-category">Main Menu</li>
+    <li class="nav-item">
+      <a class="nav-link" href="/about">
+        <i class="menu-icon typcn typcn-document-text"></i>
+        <span class="menu-title">About</span>
+      </a>
+    </li>
+    <% if(role === 'Admin') {%>
+    <li class="nav-item">
+      <a class="nav-link" href="/controlRoom">
+        <i class="menu-icon typcn typcn-document-text"></i>
+        <span class="menu-title">Control room</span>
+      </a>
+    </li>
+    <% }else{ %>
+    <li class="nav-item">
+      <a class="nav-link" href="/readStatus">
+        <i class="menu-icon typcn typcn-document-text"></i>
+        <span class="menu-title">Read status</span>
+      </a>
+    </li>
+    <% } %>
+    <li class="nav-item">
+      <a
+        class="nav-link"
+        data-toggle="collapse"
+        href="#ui-basic"
+        aria-expanded="false"
+        aria-controls="ui-basic"
+      >
+        <i class="menu-icon typcn typcn-coffee"></i>
+        <span class="menu-title">Adminstration</span>
+        <i class="menu-arrow"></i>
+      </a>
+      <div class="collapse" id="ui-basic">
+        <ul class="nav flex-column sub-menu">
+          <% if(role === 'Admin') {%>
+          <li class="nav-item">
+            <a class="nav-link" href="/createUser">Create user</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/currentUsers">Current users</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/addNode">Add node</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/currentNodes">Curent nodes</a>
+          </li>
+          <% }else{ %>
+          <li class="nav-item">
+            <a class="nav-link" href="/changePassword">Change password</a>
+          </li>
+          <% } %>
+        </ul>
+      </div>
+    </li>
+  </ul>
+</nav>

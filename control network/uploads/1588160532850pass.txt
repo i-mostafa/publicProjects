@@ -1,0 +1,18 @@
+Backend login : 
+user name : test@test.com
+password :123
+
+
+front end login :
+user name : test@test.com
+password :123
+-----
+
+
+Blue host :
+
+user name :id-4647430
+password :y0ssf1900!L
+162.241.237.234
+/*
+ "target": "http://[::1]:3000", */

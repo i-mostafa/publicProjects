@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('./parts/head') %>
+  <body>
+    <div class="container-scroller">
+      <%- include('./parts/topBar') %>
+      <div class="container-fluid page-body-wrapper">
+        <%- include('./parts/sideBar') %>
+        <div class="main-panel">
+          <div class="content-wrapper">
+            <%- include('./parts/pageHeader') %>
+          </div>
+          <!-- start page content-->
+          <div class="col-lg-12 grid-margin stretch-card">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Control room</h4>
+                <p class="card-description">
+                  Read & Control nodes <code>I/O ports</code>
+                </p>
+                <h5 class="card-title" style="float: right">
+                  last modifier:
+                  <span id="requestModifier"><%= node.lastModifier %></span> -
+                  last request:
+                  <span id="lastRequest">
+                    <% let crDate = new Date(Number(node.lastRequest)) %> <%=
+                    node.lastRequest?crDate.getFullYear() + "-" +
+                    (crDate.getMonth() + 1) + "-" + crDate.getDate() + " " +
+                    crDate.getHours() + ":" + crDate.getMinutes() + ":" +
+                    crDate.getSeconds(): 'No requests detected' %>
+                  </span>
+                </h5>
+                <table class="table table-striped">
+                  <thead>
+                    <tr>
+                      <th>Port</th>
+                      <th>Connection</th>
+                      <th>Current state</th>
+                      <th>Control</th>
+                    </tr>
+                  </thead>
+
+                  <tbody>
+                    <% let portNames = Object.keys(node.ports) ; for(let index =
+                    0; index < portNames.length ; index++){ %>
+                    <tr>
+                      <th><%=portNames[index] %></th>
+                      <th><%=node.ports[portNames[index]].state %></th>
+                      <th id="<%= portNames[index]%>_state">
+                        <%=node.ports[portNames[index]].value %>
+                      </th>
+
+                      <% if (node.ports[portNames[index]].state === 'OUTPUT' ) {
+                      %>
+                      <th>
+                        <button
+                          type="button"
+                          class="btn btn-warning btn-fw"
+                          onclick="toggleNodePort('<%= node.nodeId %>', '<%= portNames[index] %>')"
+                        >
+                          Toggle
+                        </button>
+                      </th>
+                      <%}else if (node.ports[portNames[index]].state === 'PWM' )
+                      { %>
+                      <th>
+                        <div class="form-group">
+                          <div class="input-group">
+                            <input
+                              type="number"
+                              class="form-control"
+                              placeholder="Percentage"
+                              aria-label="Percentage"
+                              aria-describedby="colored-addon2"
+                              id="<%= portNames[index]%>_value"
+                            />
+                            <div
+                              class="input-group-prepend bg-primary border-primary"
+                            >
+                              <button
+                                type="button"
+                                class="btn btn-success"
+                                onclick="sendPWMSignal('<%= node.nodeId %>', '<%= portNames[index] %>')"
+                              >
+                                Send
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </th>
+                      <%}else{%>
+                      <th></th>
+                      <% } %>
+                    </tr>
+                    <% } %>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <!-- end of page content-->
+          <%- include('./parts/footer') %>
+        </div>
+      </div>
+    </div>
+    <%- include('./parts/scripts') %>
+  </body>
+  <script>
+    window.setInterval(function () {
+      refreshNodeData("<%= node.nodeId%>", "<%= portNames%>");
+    }, 1000);
+  </script>
+</html>

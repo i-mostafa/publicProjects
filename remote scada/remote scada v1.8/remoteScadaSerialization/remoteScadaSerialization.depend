@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1605977529 source:d:\web\projects\remote scada\remote scada v1.7\remotescadaserialization\main.cpp
+	<iostream>
+	<math.h>
+	<string.h>
+	<stdlib.h>
+

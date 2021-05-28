@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>File Upload</title>
+        <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    </head>
+    <body>
+        <div class="container  w-50 my-5 text-center">
+            <form action="/file" method="POST" enctype="multipart/form-data" class="custom-form">
+                <div class="form-row align-items-center">
+                    <div class="col-auto my-1">
+                        <div class="form-group">
+                            <label for="exampleFormControlFile1">Upload files</label>
+                            <input
+                                type="file"
+                                name="file"
+                                class="form-control-file"
+                                id="exampleFormControlFile1"
+                            />
+                        </div>
+                    </div>
+                    <div class="col-auto my-1"></div>
+                    <div class="col-auto my-1">
+                        <button type="submit" class="btn btn-primary">Upload</button>
+                    </div>
+                </div>
+            </form>
+            <div class="input-group-append">
+                <a class="btn btn-primary" type="button" href="/">Back</a>
+            </div>
+        </div>
+
+        <script src="/js/jquery.min.js"></script>
+        <script src="/js/popper.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
+    </body>
+</html>

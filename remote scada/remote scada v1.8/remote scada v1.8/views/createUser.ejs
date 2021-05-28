@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('./parts/head') %>
+  <body>
+    <div class="container-scroller">
+      <%- include('./parts/topBar') %>
+      <div class="container-fluid page-body-wrapper">
+        <%- include('./parts/sideBar') %>
+        <div class="main-panel">
+          <div class="content-wrapper">
+            <%#- include('./parts/pageHeader') %>
+            <!-- start page content-->
+
+            <!-- end of page content-->
+          </div>
+          <div class="col-md-7 grid-margin stretch-card">
+            <div class="card">
+              <form class="forms-sample" action="/createUser" method="POST">
+                <div class="card-body">
+                  <h4 class="card-title">Create new user</h4>
+                  <p class="card-description">
+                    create new user to Remote Scada system
+                  </p>
+
+                  <div class="form-group">
+                    <label>User name</label>
+                    <input
+                      type="text"
+                      class="form-control form-control-lg"
+                      placeholder="User name"
+                      aria-label="User name"
+                      name="userName"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label>password</label>
+                    <input
+                      type="password"
+                      class="form-control form-control-lg"
+                      placeholder="Description"
+                      aria-label="Description"
+                      name="password"
+                    />
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title">Role</h4>
+                  <div class="form-group">
+                    <select
+                      class="form-control form-control-lg"
+                      id="exampleFormControlSelect1"
+                      name="role"
+                    >
+                      <option>Admin</option>
+                      <option>User</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <button type="submit" class="btn btn-success mr-2">
+                      Submit
+                    </button>
+                    <button class="btn btn-light">Cancel</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <%- include('./parts/footer') %>
+        </div>
+      </div>
+    </div>
+    <%- include('./parts/scripts') %>
+  </body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('./parts/head') %>
+  <body>
+    <div class="container-scroller">
+      <%- include('./parts/topBar') %>
+      <div class="container-fluid page-body-wrapper">
+        <%- include('./parts/sideBar') %>
+        <div class="main-panel">
+          <div class="content-wrapper"></div>
+          <!-- start page content-->
+          <div class="col-lg-12 grid-margin stretch-card">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Current Users</h4>
+                <table class="table table-striped">
+                  <thead>
+                    <tr>
+                      <th>Node Id</th>
+                      <th>Node name</th>
+                      <th>Description</th>
+                      <th>Creation Date</th>
+                      <th>last Request</th>
+                      <th>last modifier</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <% for (let node of nodes){%>
+                    <tr>
+                      <td class="py-1"><%=node.nodeId%></td>
+                      <td><%=node.nodeName%></td>
+                      <td><%=node.description%></td>
+                      <td>
+                        <% let crDate = new Date(Number(node.creationDate)) %>
+                        <%= node.creationDate?crDate.getFullYear() + "-" +
+                        (crDate.getMonth() + 1) + "-" + crDate.getDate() + " " +
+                        crDate.getHours() + ":" + crDate.getMinutes() + ":" +
+                        crDate.getSeconds(): 'No creation Date detected' %>
+                      </td>
+                      <td>
+                        <% crDate = new Date(Number(node.lastRequest)) %> <%=
+                        node.lastRequest? crDate.getFullYear() + "-" +
+                        (crDate.getMonth() + 1) + "-" + crDate.getDate() + " " +
+                        crDate.getHours() + ":" + crDate.getMinutes() + ":" +
+                        crDate.getSeconds():'No request detected' %>
+                      </td>
+
+                      <td><%=node.lastModifier%></td>
+                    </tr>
+                    <% } %>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <!-- end of page content-->
+          <%- include('./parts/footer') %>
+        </div>
+      </div>
+    </div>
+    <%- include('./parts/scripts') %>
+  </body>
+</html>

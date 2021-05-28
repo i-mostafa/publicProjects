@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('./parts/head') %>
+  <body>
+    <div class="container-scroller">
+      <%- include('./parts/topBar') %>
+      <div class="container-fluid page-body-wrapper">
+        <%- include('./parts/sideBar') %>
+        <div class="main-panel">
+          <div class="content-wrapper">
+            <%#- include('./parts/pageHeader') %>
+            <!-- start page content-->
+
+            <!-- end of page content-->
+          </div>
+          <div class="col-md-7 grid-margin stretch-card">
+            <div class="card">
+              <form class="forms-sample" target="/addNode" method="POST">
+                <div class="card-body">
+                  <h4 class="card-title">Add Node</h4>
+                  <p class="card-description">
+                    Add a node to Remote Scada system
+                  </p>
+
+                  <div class="form-group">
+                    <label>Node Name</label>
+                    <input
+                      type="text"
+                      class="form-control form-control-lg"
+                      placeholder="Node Name"
+                      aria-label="Node Name"
+                      name="nodeName"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label>Description</label>
+                    <input
+                      type="text"
+                      class="form-control form-control-lg"
+                      placeholder="Description"
+                      aria-label="Description"
+                      name="description"
+                    />
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title">GPIOs</h4>
+                  <div class="form-group">
+                    <label for="exampleFormControlSelect1">D0</label>
+                    <select
+                      class="form-control form-control-lg"
+                      id="exampleFormControlSelect1"
+                      name="GPIO_0"
+                    >
+                      <option value="INPUT">INPUT</option>
+                      <option value="OUTPUT">OUTPUT</option>
+                      <option value="PWM">PWM Default : 0%</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlSelect1">D1</label>
+                    <select
+                      class="form-control form-control-lg"
+                      id="exampleFormControlSelect1"
+                      name="GPIO_1"
+                    >
+                      <option value="INPUT">INPUT</option>
+
+                      <option value="OUTPUT">OUTPUT</option>
+                      <option value="PWM">PWM Default : 0%</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlSelect1">D2</label>
+                    <select
+                      class="form-control form-control-lg"
+                      id="exampleFormControlSelect1"
+                      name="GPIO_2"
+                    >
+                      <option value="INPUT">INPUT</option>
+
+                      <option value="OUTPUT">OUTPUT</option>
+                      <option value="PWM">PWM Default : 0%</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlSelect1">D3</label>
+                    <select
+                      class="form-control form-control-lg"
+                      id="exampleFormControlSelect1"
+                      name="GPIO_3"
+                    >
+                      <option value="INPUT">INPUT</option>
+
+                      <option value="OUTPUT">OUTPUT</option>
+                      <option value="PWM">PWM Default : 0%</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlSelect1">D4</label>
+                    <select
+                      class="form-control form-control-lg"
+                      id="exampleFormControlSelect1"
+                      name="GPIO_4"
+                    >
+                      <option value="INPUT">INPUT</option>
+
+                      <option value="OUTPUT">OUTPUT</option>
+                      <option value="PWM">PWM Default : 0%</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlSelect1">D5</label>
+                    <select
+                      class="form-control form-control-lg"
+                      id="exampleFormControlSelect1"
+                      name="GPIO_5"
+                    >
+                      <option value="INPUT">INPUT</option>
+
+                      <option value="OUTPUT">OUTPUT</option>
+                      <option value="PWM">PWM Default : 0%</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlSelect1">D6</label>
+                    <select
+                      class="form-control form-control-lg"
+                      id="exampleFormControlSelect1"
+                      name="GPIO_6"
+                    >
+                      <option value="INPUT">INPUT</option>
+
+                      <option value="OUTPUT">OUTPUT</option>
+                      <option value="PWM">PWM Default : 0%</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlSelect1">D7</label>
+                    <select
+                      class="form-control form-control-lg"
+                      id="exampleFormControlSelect1"
+                      name="GPIO_7"
+                    >
+                      <option value="INPUT">INPUT</option>
+
+                      <option value="OUTPUT">OUTPUT</option>
+                      <option value="PWM">PWM Default : 0%</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlSelect1">D8</label>
+                    <select
+                      class="form-control form-control-lg"
+                      id="exampleFormControlSelect1"
+                      name="GPIO_8"
+                    >
+                      <option value="INPUT">INPUT</option>
+
+                      <option value="OUTPUT">OUTPUT</option>
+                      <option value="PWM">PWM Default : 0%</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlSelect1">D9</label>
+                    <select
+                      class="form-control form-control-lg"
+                      id="exampleFormControlSelect1"
+                      name="GPIO_9"
+                    >
+                      <option value="INPUT">INPUT</option>
+
+                      <option value="OUTPUT">OUTPUT</option>
+                      <option value="PWM">PWM Default : 0%</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlSelect1">D10</label>
+                    <select
+                      class="form-control form-control-lg"
+                      id="exampleFormControlSelect1"
+                      name="GPIO_10"
+                    >
+                      <option value="INPUT">INPUT</option>
+
+                      <option value="OUTPUT">OUTPUT</option>
+                      <option value="PWM">PWM Default : 0%</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <button type="submit" class="btn btn-success mr-2">
+                      Submit
+                    </button>
+                    <button class="btn btn-light">Cancel</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <%- include('./parts/footer') %>
+        </div>
+      </div>
+    </div>
+    <%- include('./parts/scripts') %>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+{
+  "name": "control-network",
+  "version": "1.0.0",
+  "description": "controls local network",
+  "main": "server.js",
+  "dependencies": {
+    "audio-buffer": "^4.0.4",
+    "audio-speaker": "^1.5.0",
+    "body-parser": "^1.19.0",
+    "confirm-dialog": "^0.1.2",
+    "delay": "^4.3.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.2",
+    "ping": "^0.2.2",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
