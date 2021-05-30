@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <%- include('./parts/head.ejs') %>
+
+    <body class="cbp-spmenu-push">
+        <div class="main-content">
+            <%- include('./parts/sidebar.ejs') %> <%- include('./parts/topbar.ejs') %>
+            <!-- main content start-->
+            <div id="page-wrapper">
+                <div class="main-page">
+                    <h2 class="title1"></h2>
+                    <div class="tables">
+                        <div class="table-responsive bs-example widget-shadow">
+                            <h4>Normal transactions</h4>
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th style="width:20px; text-align:center">#</th>
+                                        <th style="text-align:center">User name</th>
+                                        <th style="text-align:center">From</th>
+                                        <th style="text-align:center">To</th>
+                                        <th style="text-align:center">Time Stamp</th>
+                                        <th style="text-align:center">State</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <% for(let i = 0; i < transactions.length; i++){ %>
+                                    <tr class="text-center">
+                                        <th scope="row"><%= i %></th>
+                                        <td><%= transactions[i].userName %></td>
+                                        <td><%= transactions[i]._id %></td>
+                                        <td><%= transactions[i].toId %></td>
+                                        <td><%= transactions[i].timeStamp %></td>
+                                        <td><%= transactions[i].status %></td>
+                                    </tr>
+                                    <% } %>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <%- include('./parts/footer.ejs') %>
+        </div>
+        <%- include('./parts/scripts.ejs') %>
+    </body>
+</html>

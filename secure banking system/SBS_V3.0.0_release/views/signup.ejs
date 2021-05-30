@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <%- include('./parts/head.ejs') %>
+
+    <body class="cbp-spmenu-push cbp-spmenu-push-toright">
+        <div class="main-content">
+            <!-- main content start-->
+            <div id="page-wrapper">
+                <div class="main-page signup-page">
+                    <h2 class="title1">
+                        <span class="fa fa-shield"></span> SBS<span class="dashboard_text">Secure Banking System</span>
+                    </h2>
+                    <div class="sign-up-row widget-shadow">
+                        <h5>Personal Information :</h5>
+                        <form action="/signup" method="post">
+                            <div class="sign-u">
+                                <input type="text" name="firstName" placeholder="First Name" required="" />
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="sign-u">
+                                <input type="text" name="lastName" placeholder="Last Name" required="" />
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="sign-u">
+                                <input type="email" name="email" placeholder="Email Address" required="" />
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="sign-u">
+                                <div class="sign-up1">
+                                    <h4>Gender* :</h4>
+                                </div>
+                                <div class="sign-up2">
+                                    <label>
+                                        <input type="radio" name="gender" value="male" />
+                                        Male
+                                    </label>
+                                    <label>
+                                        <input type="radio" name="gender" value="female" />
+                                        Female
+                                    </label>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="sign-u">
+                                <input type="file" name="file" />
+                                <div class="clearfix"></div>
+                            </div>
+                            <h6>Login Information :</h6>
+                            <div class="sign-u">
+                                <input type="password" name="password" placeholder="Password" required="" />
+                                <div class="clearfix"></div>
+                            </div>
+
+                            <div class="sign-u">
+                                <input type="password" name="cpassword" placeholder="Confirm Password" required="" />
+                            </div>
+                            <div class="clearfix"></div>
+                            <% if(typeof signupValidationErrors !== 'undefined') {%>
+                            <p class="alert alert-danger"><%= signupValidationErrors.msg %></p>
+                            <% } %>
+                            <div class="sub_home">
+                                <input type="submit" value="Sign Up" />
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="registration">
+                                Already Registered.
+                                <a class="" href="/login">
+                                    Login
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <%- include('./parts/footer.ejs') %>
+        </div>
+        <%- include('./parts/scripts.ejs') %>
+    </body>
+</html>

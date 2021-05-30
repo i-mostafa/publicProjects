@@ -1,0 +1,78 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+}
+
+.center p {
+  width: 80%;
+  position: relative;
+  left: 5%;
+}
+
+#dev.center {
+  position: relative;
+  left: -7%;
+}
+
+.text {
+  font-family: "Times New Roman", Times, serif;
+  color: blanchedalmond;
+}
+#logo_img {
+  width: 20%;
+  max-width: 200px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-style: solid;
+}
+
+/* .text_alignment {
+  position: relative;
+  left: -20px;
+} */
+
+.button {
+  position: relative;
+  top: 20px;
+  left: -10px;
+  border-radius: 20%;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #617073;
+  border-color: transparent;
+  color: blanchedalmond;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.back_img {
+  background-image: url(../img/back.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}

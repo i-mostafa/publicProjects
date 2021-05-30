@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <%- include('./parts/head.ejs') %>
+
+    <body class="cbp-spmenu-push">
+        <div class="main-content">
+            <%- include('./parts/sidebar.ejs') %> <%- include('./parts/topbar.ejs') %>
+            <!-- main content start-->
+            <div id="page-wrapper">
+                <div class="main-page">
+                    <h2 class="title1"></h2>
+                    <div class="elements">
+                        <!--photoday-section-->
+
+                        <div class="col-sm-4 w3-agile-crd widgettable">
+                            <div class="card">
+                                <div class="card-body card-padding">
+                                    <div class="">
+                                        <header class="widget-header">
+                                            <h4 class="widget-title">System Logs</h4>
+                                        </header>
+                                        <hr class="widget-separator" />
+                                        <div class="widget-body">
+                                            <div class="streamline">
+                                                <% for(let log of logs){ %>
+                                                <div class="sl-item sl-success">
+                                                    <div class="sl-content">
+                                                        <small class="text-muted">
+                                                            <% let options = { weekday: 'short', year: 'numeric', month:
+                                                            'long', day: '2-digit', hour: '2-digit', minute: '2-digit',
+                                                            second: '2-digit' }; %> <% let time = new
+                                                            Date(Number(log.timeStamp)) %> <%=
+                                                            time.toLocaleDateString("en-US", options)%>
+                                                        </small>
+                                                        <p><%= log.event %></p>
+                                                    </div>
+                                                </div>
+                                                <% } %>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+            <%- include('./parts/footer.ejs') %>
+        </div>
+        <%- include('./parts/scripts.ejs') %>
+    </body>
+</html>

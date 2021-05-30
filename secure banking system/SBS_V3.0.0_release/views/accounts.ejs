@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <%- include('./parts/head.ejs') %>
+
+    <body class="cbp-spmenu-push">
+        <div class="main-content">
+            <%- include('./parts/sidebar.ejs') %> <%- include('./parts/topbar.ejs') %>
+            <!-- main content start-->
+            <div id="page-wrapper">
+                <div class="main-page">
+                    <h2 class="title1">Internal Accounts</h2>
+                    <div class="col-sm-4 w3-agileits-crd widgettable">
+                        <div class="card card-contact-list">
+                            <div class="agileinfo-cdr">
+                                <div class="card-header">
+                                    <h3>Account Requests</h3>
+                                </div>
+                                <hr class="widget-separator" />
+                                <div class="card-body p-b-20">
+                                    <div class="list-group" data-spy="scroll">
+                                        <% for(let request of requests) {%>
+                                        <a class="list-group-item media" href="">
+                                            <div class="pull-left">
+                                                <img class="lg-item-img" src="/images/4.jpg" alt="" />
+                                            </div>
+                                            <div class="media-body">
+                                                <div class="pull-left">
+                                                    <div class="lg-item-heading" style="text-transform: capitalize;">
+                                                        <%= request.firstName %> <%= request.lastName %>
+                                                    </div>
+                                                    <small class="lg-item-text"><%= request.email %> </small>
+                                                </div>
+                                                <div class="pull-right">
+                                                    <div class="lg-item-heading"><%= request.role %></div>
+                                                </div>
+                                                <form method="POST" class="pull-right">
+                                                    <input type="hidden" name="userId" value="<%= request._id %> " />
+                                                    <input
+                                                        type="submit"
+                                                        value="Accept"
+                                                        class="btn btn-success  btn-sm"
+                                                        formaction="/accounts/accept"
+                                                    />
+                                                    <input
+                                                        type="submit"
+                                                        value="delete"
+                                                        class="btn btn-danger  btn-sm"
+                                                        formaction="/accounts/delete"
+                                                    />
+                                                </form>
+                                            </div>
+                                        </a>
+                                        <% } %>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 w3-agileits-crd widgettable">
+                        <div class="card card-contact-list">
+                            <div class="agileinfo-cdr">
+                                <div class="card-header">
+                                    <h3>
+                                        Current Users
+                                    </h3>
+                                </div>
+                                <hr class="widget-separator" />
+                                <div class="card-body p-b-20">
+                                    <div class="list-group">
+                                        <% for(let account of currentUsers) {%>
+                                        <a class="list-group-item media" href="">
+                                            <div class="pull-left">
+                                                <img class="lg-item-img" src="/images/4.jpg" alt="" />
+                                            </div>
+                                            <div class="media-body">
+                                                <div class="pull-left">
+                                                    <div class="lg-item-heading" style="text-transform: capitalize;">
+                                                        <%= account.firstName %> <%= account.lastName %>
+                                                    </div>
+                                                    <small class="lg-item-text"><%= account.email %> </small>
+                                                </div>
+                                                <div class="pull-right">
+                                                    <div class="lg-item-heading"><%= account.role %></div>
+                                                    <form method="POST" class="pull-right">
+                                                        <input
+                                                            type="hidden"
+                                                            name="userId"
+                                                            value="<%= account._id %> "
+                                                        />
+                                                        <input
+                                                            type="submit"
+                                                            value="delete"
+                                                            class="btn btn-danger btn-sm"
+                                                            formaction="/accounts/delete"
+                                                        />
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <% } %>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <%- include('./parts/footer.ejs') %>
+        </div>
+        <%- include('./parts/scripts.ejs') %>
+    </body>
+</html>

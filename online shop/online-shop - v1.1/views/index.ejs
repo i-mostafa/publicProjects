@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <%- include('./parts/head') %>
+    <body>
+        <%- include('./parts/navbar') %>
+        <div class="container">
+            <form action="/" method="GET">
+                <select name="category" class="custom-select mt-2">
+                    <option value="all">All</option>
+                    <option value="clothes">Clothes</option>
+                    <option value="phones">Phones</option>
+                    <option value="tablets">Tablets</option>
+                    <option value="laptops">Laptops</option>
+                </select>
+                <input type="submit" class="btn btn-primary my-3" value="filter" />
+            </form>
+            <% if(products.length !== 0){ %>
+            <div class="row">
+                <% for(let product of products){ %>
+                <div class="mx-xl-3 col col-12 col-md-6 col-lg-4 col-xl-3">
+                    <div class="my-3 card" style="width: 18rem;">
+                        <img src=<%= product.image %> class="card-img-top" />
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <a href="/product/<%= product._id %> "><%= product.name %> </a>
+                            </h5>
+                            <p class="card-text">
+                                <%= product.description %>
+                            </p>
+                            <p class="card-text">
+                                price: <%= product.price %> $
+                            </p>
+                            <form action="/cart" method="POST">
+                                <input type="number" name="amount" class="form-control" />
+                                <input type="submit" class="my-3 btn btn-primary" value="Add to Cart" />
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <% } %>
+            </div>
+            <% } else{%>
+            <div class="alert alert-danger">
+                there is no products
+            </div>
+            <% } %>
+        </div>
+        <%- include('./parts/footer') %>
+    </body>
+</html>

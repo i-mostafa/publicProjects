@@ -1,0 +1,44 @@
+<div class="sticky-header header-section ">
+    <div class="header-left">
+        <div class="profile_details_left">
+            <div class="clearfix"></div>
+        </div>
+        <!--notification menu end -->
+        <div class="clearfix"></div>
+    </div>
+    <div class="header-right">
+        <div class="profile_details">
+            <ul>
+                <li class="dropdown profile_details_drop">
+                    <a href="/profile" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                        <div class="profile_img">
+                            <span class="prfil-img"><img src="/images/profile.jpg" alt="" /> </span>
+                            <div class="user-name">
+                                <p style="text-transform: capitalize;">
+                                    <%- userData.firstName %> <%- userData.lastName %>
+                                </p>
+                                <span> <%- userData.role %></span>
+                            </div>
+                            <i class="fa fa-angle-down lnr" style="color:rgb(233, 231, 227)"></i>
+                            <i class="fa fa-angle-up lnr" style="color:rgb(233, 231, 227)"></i>
+                            <div class="clearfix"></div>
+                        </div>
+                    </a>
+                    <ul class="dropdown-menu drp-mnu">
+                        <li>
+                            <a href="/settings"><i class="fa fa-cog"></i> Settings</a>
+                        </li>
+                        <li>
+                            <a href="/profile"><i class="fa fa-suitcase"></i> Profile</a>
+                        </li>
+                        <li>
+                            <a href="/logout"><i class="fa fa-sign-out"></i> Logout</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="clearfix"></div>
+</div>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Request</title>
+        <script>
+            if (!localStorage.login) {
+                window.location.href = "./login.html";
+            }
+        </script>
+        <!-- Meta tag Keywords -->
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta
+            name="keywords"
+            content="Graceful User Profile Widget a Flat Responsive Widget,Login form widgets, Sign up Web forms , Login signup Responsive web form,Flat Pricing table,Flat Drop downs,Registration Forms,News letter Forms,Elements"
+        />
+        <script type="application/x-javascript">
+             addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+            function hideURLbar(){ window.scrollTo(0,1); }
+        </script>
+        <!-- Meta tag Keywords -->
+        <link rel="stylesheet" href="css/profile.css" type="text/css" media="all" />
+        <!-- Style-CSS -->
+        <link rel="stylesheet" href="css/font-awesome.css" />
+        <!--fontawesome-css-->
+        <!--online fonts-->
+        <link href="//fonts.googleapis.com/css?family=Exo+2" rel="stylesheet" />
+        <link href="//fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
+    </head>
+
+    <body>
+        <section class="agile-main">
+            <div class="agile-head">
+                <h1>EBS<span style="color: forestgreen;">visa</span></h1>
+            </div>
+            <div class="agile-sub">
+                <div class="agile-image">
+                    <img src="./src/img/logo.jpg" alt="image" />
+                    <div class="agile-details">
+                        <h2>Salah Alzahrani</h2>
+                        <p>123456789</p>
+                    </div>
+                    <div
+                        class="social-icons agile-details"
+                        style="padding: 3px; border-top: none; width: 50%; margin: 0 25%;"
+                    >
+                        <p
+                            style="color: forestgreen;margin: auto; width: 100%; padding:0; font-size: 30px; font-weight: bold;"
+                        >
+                            Request Visa
+                        </p>
+                    </div>
+                    <div class="agile-activity"></div>
+                    <form action="javascript:void(0);" method="post" onsubmit="getVisaData()">
+                        <div class="agile-list-grids">
+                            <div class="agile-list-grid " style="margin: 0 20px; width: 35%; float: left;">
+                                <span class="form-sub-label">
+                                    <div style="text-align: center;">
+                                        <span style="display: inline-block;">Start Date:</span>
+                                        <input type="date" style="font-size: 15px;" id="startDate" required />
+                                    </div>
+                                </span>
+                            </div>
+                            <div class="agile-list-grid " style="margin: 0 20px; width: 35%; float: left;">
+                                <span class="form-sub-label">
+                                    <div style="text-align: center;">
+                                        <span style="display: inline-block;">End Date:</span>
+                                        <input type="date" style="font-size: 15px;" id="endDate" required />
+                                    </div>
+                                </span>
+                            </div>
+
+                            <div class="agile-activity"></div>
+
+                            <div class="agile-activity"></div>
+
+                            <div class="agile-activity"></div>
+                        </div>
+                        <div class="agile-list-grid " style="width: 100%; text-align: center; margin: 20px 0px;">
+                            <span class="form-sub-label">
+                                <select name="Visa-tybe" required id="visaType" style="width: 40%;">
+                                    <option value=""> Visa Type </option>
+                                    <option value="Tourism"> Tourism </option>
+                                    <option value="Work"> Work </option>
+                                    <option value="Hijj and umrah"> Hijj and Umrah </option>
+                                </select>
+                            </span>
+                        </div>
+                        <div class="agile-activity"></div>
+
+                        <div class="agile-list-grids">
+                            <div class="agile-list-grid">
+                                <input
+                                    type="button"
+                                    value="Cancel"
+                                    class="button"
+                                    onclick="{window.location.href = './home.html';}"
+                                />
+                            </div>
+                            <div class="agile-list-grid">
+                                <input type="submit" value="OK" class="button" />
+                            </div>
+                        </div>
+
+                        <div class="agile-activity"></div>
+                    </form>
+                    <div class="agile-follow">
+                        <button class="button" id="logout" onclick="signOut()">
+                            logOut
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <p>© 2020 All Rights Reserved | EBS<span style="color: forestgreen;">visa</span></p>
+            </footer>
+        </section>
+        <script src="./js/login.js"></script>
+    </body>
+    <script src="./js/watermark.js"></script>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <%- include('./parts/head.ejs') %>
+
+    <body class="cbp-spmenu-push">
+        <div class="main-content">
+            <%- include('./parts/sidebar.ejs') %> <%- include('./parts/topbar.ejs') %>
+            <!-- main content start-->
+            <div id="page-wrapper">
+                <div class="main-page">
+                    <div class="tables">
+                        <div class="panel-body widget-shadow" style="width: 50%; margin: 100px 25%;">
+                            <h4>Profile</h4>
+                            <div style="text-align: center;">
+                                <img src="./images/profile.jpg" alt="profile" style="width: 150px;" />
+                            </div>
+                            <div style="text-align: center; margin: 20px;">
+                                <h1><%= userData.firstName %> <%= userData.lastName %></h1>
+                            </div>
+                            <div class="main-page signup-page" style="width: 100%;">
+                                <div class="sign-up-row widget-shadow">
+                                    <h5>Personal Information :</h5>
+                                    <form action="/profile" method="post">
+                                        <div class="sign-u">
+                                            <input
+                                                type="text"
+                                                name="firstName"
+                                                value="<%= userData.firstName %>"
+                                                required=""
+                                            />
+                                            <div class="clearfix"></div>
+                                        </div>
+                                        <div class="sign-u">
+                                            <input
+                                                type="text"
+                                                name="lastName"
+                                                value="<%= userData.lastName %>"
+                                                required=""
+                                            />
+                                            <div class="clearfix"></div>
+                                        </div>
+                                        <div class="sign-u">
+                                            <input
+                                                type="email"
+                                                name="email"
+                                                required=""
+                                                disabled
+                                                value="<%= userData.email %>"
+                                            />
+                                            <input
+                                                type="hidden"
+                                                name="email"
+                                                required=""
+                                                value="<%= userData.email %>"
+                                            />
+                                            <div class="clearfix"></div>
+                                        </div>
+
+                                        <h6>Login Information :</h6>
+                                        <div class="sign-u">
+                                            <input type="password" name="password" placeholder="Password" required="" />
+                                            <div class="clearfix"></div>
+                                        </div>
+                                        <div class="sign-u">
+                                            <input
+                                                type="password"
+                                                name="cpassword"
+                                                placeholder="Confirm Password"
+                                                required=""
+                                            />
+                                        </div>
+                                        <% if(typeof signupValidationErrors !== 'undefined') {%>
+                                        <p class="alert alert-danger"><%= signupValidationErrors.msg %></p>
+                                        <% } %>
+                                        <div class="clearfix"></div>
+                                        <div class="sub_home">
+                                            <input type="submit" value="Save" />
+                                            <div class="clearfix"></div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- for amcharts js -->
+                    <script src="js/amcharts.js"></script>
+                    <script src="js/serial.js"></script>
+                    <script src="js/export.min.js"></script>
+                    <link rel="stylesheet" href="css/export.css" type="text/css" media="all" />
+                    <script src="js/light.js"></script>
+                    <!-- for amcharts js -->
+
+                    <script src="js/index1.js"></script>
+                </div>
+            </div>
+            <%- include('./parts/footer.ejs') %>
+        </div>
+        <%- include('./parts/scripts.ejs') %>
+    </body>
+</html>

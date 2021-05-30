@@ -1,0 +1,883 @@
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.146
+
+Pinging 192.168.1.146 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.146:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.147
+
+Pinging 192.168.1.147 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.147:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.148
+
+Pinging 192.168.1.148 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.148:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.149
+
+Pinging 192.168.1.149 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.149:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.150
+
+Pinging 192.168.1.150 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.150:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.151
+
+Pinging 192.168.1.151 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.151:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.152
+
+Pinging 192.168.1.152 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.152:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.153
+
+Pinging 192.168.1.153 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.153:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.154
+
+Pinging 192.168.1.154 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.154:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.155
+
+Pinging 192.168.1.155 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.155:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.156
+
+Pinging 192.168.1.156 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.156:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.157
+
+Pinging 192.168.1.157 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.157:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.158
+
+Pinging 192.168.1.158 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.158:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.159
+
+Pinging 192.168.1.159 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.159:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.160
+
+Pinging 192.168.1.160 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.160:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.161
+
+Pinging 192.168.1.161 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.161:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.162
+
+Pinging 192.168.1.162 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.162:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.163
+
+Pinging 192.168.1.163 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.163:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.164
+
+Pinging 192.168.1.164 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.164:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.165
+
+Pinging 192.168.1.165 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.165:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.166
+
+Pinging 192.168.1.166 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.166:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.167
+
+Pinging 192.168.1.167 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.167:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.168
+
+Pinging 192.168.1.168 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.168:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.169
+
+Pinging 192.168.1.169 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.169:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.170
+
+Pinging 192.168.1.170 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.170:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.171
+
+Pinging 192.168.1.171 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.171:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.172
+
+Pinging 192.168.1.172 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.172:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.173
+
+Pinging 192.168.1.173 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.173:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.174
+
+Pinging 192.168.1.174 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.174:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.175
+
+Pinging 192.168.1.175 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.175:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.176
+
+Pinging 192.168.1.176 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.176:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.177
+
+Pinging 192.168.1.177 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.177:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.178
+
+Pinging 192.168.1.178 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.178:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.179
+
+Pinging 192.168.1.179 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.179:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.180
+
+Pinging 192.168.1.180 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.180:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.181
+
+Pinging 192.168.1.181 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.181:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.182
+
+Pinging 192.168.1.182 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.182:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.183
+
+Pinging 192.168.1.183 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.183:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.184
+
+Pinging 192.168.1.184 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.184:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.185
+
+Pinging 192.168.1.185 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.185:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.186
+
+Pinging 192.168.1.186 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.186:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.187
+
+Pinging 192.168.1.187 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.187:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.188
+
+Pinging 192.168.1.188 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.188:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.189
+
+Pinging 192.168.1.189 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.189:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.190
+
+Pinging 192.168.1.190 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.190:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.191
+
+Pinging 192.168.1.191 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.191:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.192
+
+Pinging 192.168.1.192 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.192:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.193
+
+Pinging 192.168.1.193 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.193:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.194
+
+Pinging 192.168.1.194 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.194:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.195
+
+Pinging 192.168.1.195 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.195:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.196
+
+Pinging 192.168.1.196 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.196:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.197
+
+Pinging 192.168.1.197 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.197:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.198
+
+Pinging 192.168.1.198 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.198:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.199
+
+Pinging 192.168.1.199 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.199:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.200
+
+Pinging 192.168.1.200 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.200:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.201
+
+Pinging 192.168.1.201 with 32 bytes of data:
+Reply from 192.168.1.201: bytes=32 time=1ms TTL=255
+
+Ping statistics for 192.168.1.201:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 1ms, Maximum = 1ms, Average = 1ms
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.202
+
+Pinging 192.168.1.202 with 32 bytes of data:
+Reply from 192.168.1.202: bytes=32 time=1ms TTL=255
+
+Ping statistics for 192.168.1.202:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 1ms, Maximum = 1ms, Average = 1ms
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.203
+
+Pinging 192.168.1.203 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.203:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.204
+
+Pinging 192.168.1.204 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.204:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.205
+
+Pinging 192.168.1.205 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.205:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.206
+
+Pinging 192.168.1.206 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.206:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.207
+
+Pinging 192.168.1.207 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.207:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.208
+
+Pinging 192.168.1.208 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.208:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.209
+
+Pinging 192.168.1.209 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.209:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.210
+
+Pinging 192.168.1.210 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.210:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.211
+
+Pinging 192.168.1.211 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.211:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.212
+
+Pinging 192.168.1.212 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.212:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.213
+
+Pinging 192.168.1.213 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.213:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.214
+
+Pinging 192.168.1.214 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.214:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.215
+
+Pinging 192.168.1.215 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.215:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.216
+
+Pinging 192.168.1.216 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.216:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.217
+
+Pinging 192.168.1.217 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.217:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.218
+
+Pinging 192.168.1.218 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.218:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.219
+
+Pinging 192.168.1.219 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.219:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.220
+
+Pinging 192.168.1.220 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.220:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.221
+
+Pinging 192.168.1.221 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.221:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.222
+
+Pinging 192.168.1.222 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.222:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.223
+
+Pinging 192.168.1.223 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.223:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.224
+
+Pinging 192.168.1.224 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.224:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.225
+
+Pinging 192.168.1.225 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.225:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.226
+
+Pinging 192.168.1.226 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.226:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.227
+
+Pinging 192.168.1.227 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.227:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.228
+
+Pinging 192.168.1.228 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.228:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.229
+
+Pinging 192.168.1.229 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.229:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.230
+
+Pinging 192.168.1.230 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.230:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.231
+
+Pinging 192.168.1.231 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.231:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.232
+
+Pinging 192.168.1.232 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.232:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.233
+
+Pinging 192.168.1.233 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.233:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.234
+
+Pinging 192.168.1.234 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.234:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.235
+
+Pinging 192.168.1.235 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.235:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.236
+
+Pinging 192.168.1.236 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.236:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.237
+
+Pinging 192.168.1.237 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.237:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.238
+
+Pinging 192.168.1.238 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.238:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.239
+
+Pinging 192.168.1.239 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.239:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.240
+
+Pinging 192.168.1.240 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.240:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.241
+
+Pinging 192.168.1.241 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.241:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.242
+
+Pinging 192.168.1.242 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.242:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.243
+
+Pinging 192.168.1.243 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.243:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.244
+
+Pinging 192.168.1.244 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.244:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.245
+
+Pinging 192.168.1.245 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.245:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.246
+
+Pinging 192.168.1.246 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.246:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.247
+
+Pinging 192.168.1.247 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.247:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.248
+
+Pinging 192.168.1.248 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.248:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.249
+
+Pinging 192.168.1.249 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.249:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.250
+
+Pinging 192.168.1.250 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.250:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.251
+
+Pinging 192.168.1.251 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.251:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.252
+
+Pinging 192.168.1.252 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.252:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.253
+
+Pinging 192.168.1.253 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.253:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.254
+
+Pinging 192.168.1.254 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.254:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),
+
+D:\courses\workspace\Projects\control network>ping -n 1 -w 250 192.168.1.255
+
+Pinging 192.168.1.255 with 32 bytes of data:
+Request timed out.
+
+Ping statistics for 192.168.1.255:
+    Packets: Sent = 1, Received = 0, Lost = 1 (100% loss),

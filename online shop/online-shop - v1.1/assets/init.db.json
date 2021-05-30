@@ -1,0 +1,29 @@
+[{
+        "name": "T-Shirt",
+        "price": 50,
+        "description": "it is a nice product to buy",
+        "image": "shirt.jpg",
+        "category": "clothes"
+    },
+    {
+        "name": "laptop",
+        "price": 200,
+        "description": "it is a nice product to buy",
+        "image": "laptop.jpg",
+        "category": "laptops"
+    },
+    {
+        "name": "phone",
+        "price": 60,
+        "description": "it is a nice product to buy",
+        "image": "phone.jpg",
+        "category": "phones"
+    },
+    {
+        "name": "tablet",
+        "price": 540,
+        "description": "it is a nice product to buy",
+        "image": "tablet.jpg",
+        "category": "tablets"
+    }
+]

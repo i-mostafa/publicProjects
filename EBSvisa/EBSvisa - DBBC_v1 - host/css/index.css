@@ -1,0 +1,32 @@
+body {
+    background-image: url("../src/img/index.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+    padding-top: 70vh;
+    color: aliceblue;
+}
+.header h1 {
+    border-bottom: 2px solid #fff;
+    width: 24vw;
+    color: aliceblue;
+    margin-left: 38vw;
+    font-size: 4vw;
+}
+.copyright {
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+}
+.copyright p {
+    width: 60vw;
+    color: aliceblue;
+    margin-left: 20vw;
+    font-size: 1vw;
+}

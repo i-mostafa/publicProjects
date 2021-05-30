@@ -1,0 +1,19 @@
+{
+  "name": "online-shop",
+  "version": "1.0.0",
+  "description": "online shop training project",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "islam mostafa",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.5",
+    "mongoose": "^5.9.5"
+  },
+  "devDependencies": {}
+}

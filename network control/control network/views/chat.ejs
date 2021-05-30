@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="refresh" content="5; URL=<%= action  %> ">
+        <title>Chat</title>
+        <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    </head>
+    <body>
+        <div class="container w-50 my-5 text-center">
+            <% for(let message of messages){ %>
+            <div class="input-group ">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"><%= message.from %> </span>
+                </div>
+                <input class="form-control text-left " value="<%= message.message  %>" />
+            </div>
+            <% }%>
+            <form class="form-group" method="POST" action=<%= action %> >
+                <div class="input-group my-3  ">
+                    <input
+                        type="text"
+                        name="message"
+                        class="form-control w-50"
+                        placeholder="write down your message"
+                        aria-label="Recipient's username"
+                        aria-describedby="button-addon2"
+                        id="msg"
+                    />
+                    <div class="input-group-append">
+                        <input class="btn btn-primary" type="submit" value="Send" />
+                    </div>
+                </div>
+            </form>
+        </div>
+<script>
+    window.onbeforeunload = function() {
+        localStorage.setItem("<%= action %>", $('#msg').val());
+}
+window.onload = function() {
+console.log("<%= action %>")
+    var data = localStorage.getItem("<%= action %>");
+    if (name !== null) $('#msg').val(data);
+
+    // ...
+}
+</script>
+        <script src="/js/jquery.min.js"></script>
+        <script src="/js/popper.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
+    </body>
+</html>

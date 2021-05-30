@@ -1,0 +1,6 @@
+{%PAGE_TITLE%}  : pageTitle
+{%SIDE_BAR%}    : sideBar
+{%TOP_BAR%}     : topBar 
+{%PAGE_NAME%}   : pageName
+{%PAGE_CONTENT%}: pageContent
+{%FOOTER%}      : footer

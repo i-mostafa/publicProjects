@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <%- include('./parts/head') %>
+    <body>
+        <%- include('./parts/navbar') %>
+        <div class="container my-5 w-25">
+            <form action="/login" method="post">
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input
+                        type="email"
+                        class="form-control"
+                        name="email"
+                        id="exampleInputEmail1"
+                        aria-describedby="emailHelp"
+                    />
+                    <% let emailError = loginValidationErrors.find(err=> err.param === 'email' ) %>
+                    <% if(emailError) {%>
+                    <p class="alert alert-danger"><%= emailError.msg %></p>
+                    <% } %>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input
+                        type="password"
+                        class="form-control"
+                        name="password"
+                        id="exampleInputPassword1"
+                    />
+                    <% let passwordError = loginValidationErrors.find(err=> err.param === 'password'
+                    ) %> <% if(passwordError) {%>
+                    <p class="alert alert-danger"><%= passwordError.msg %></p>
+                    <% } %>
+                </div>
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+                    <label class="form-check-label" for="exampleCheck1">Remember me</label>
+                </div>
+                <button type="submit" class="btn btn-primary">log In</button>
+            </form>
+            <% if(logInError){ %>
+            <br />
+            <p class="alert alert-danger"><%= logInError %></p>
+            <% } %>
+        </div>
+        <%- include('./parts/footer') %>
+    </body>
+</html>

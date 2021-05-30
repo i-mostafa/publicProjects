@@ -1,0 +1,63 @@
+body{
+    background-image: url(../img/index.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed; 
+    text-align: center;   
+}
+
+.container img{
+    margin-top: 10%;
+    border-radius: 60px;
+    border-style: none;
+    box-shadow: darkgrey;
+}
+
+.container h2,
+.container .data-in label{
+    color: rgb(192, 216, 211);
+}
+
+.container .data-in{
+    text-align: center;
+    width: 95%;
+    left: -10px;
+}
+
+.button {
+    position: relative;
+    width: 60px;
+    height: 35px;
+    top: 20px;
+    border-radius: 20%;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #617073;
+    border-color: transparent;
+    color: blanchedalmond;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: "\00bb";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
