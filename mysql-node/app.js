@@ -58,7 +58,7 @@ app.get("/posts/:id", (req, res, next) => {
     res.json(results);
   });
 });
-app.get("/deletePsot/:id", (req, res, next) => {
+app.get("/posts/:id", (req, res, next) => {
   let sql = `DELETE FROM posts WHERE id = ${req.params.id}`;
   db.query(sql, (err, results) => {
     if (err) return console.log(err);
